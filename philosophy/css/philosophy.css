@@ -1,0 +1,269 @@
+/* style philosophy*/
+
+body {
+	background-color: #000;
+}
+   
+.page-intro {  
+	
+	background-color: #000;
+	
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+}
+
+.page-intro .box-philosophy {
+	display: flex;
+	
+	flex-direction: column;
+	
+
+} 
+
+.page-intro .box-philosophy h2 {
+	margin-left: 5.7rem;
+	color: var(--txt-nama);
+
+	font-weight: 200;
+	letter-spacing: 2px;
+	margin-bottom: 2rem;
+}
+
+.page-intro .box-philosophy .box-img-philosophy {
+	width: 50rem;
+
+} 
+
+.page-intro .box-philosophy .box-img-philosophy img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.full-bg {
+	height: 100vh;
+	width: 100%;
+	background-image: url(../../asset/img/12.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.contain-philosophy {
+	/*height: 500vh;*/
+	
+	width: 100%;
+	background-color: #000;
+}
+
+.contain-philosophy .box-motiv-philosophy {
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.contain-philosophy .box-motiv-philosophy div {
+
+	padding: 0 4%;
+	width: 60rem;
+}
+
+.contain-philosophy .box-motiv-philosophy blockquote {
+	font-size: 1.5rem;
+	color: var(--txt);
+	line-height: 2rem;
+}
+
+.contain-philosophy .box-motiv-philosophy cite {
+	margin-top: 1.4rem;
+	display: inline-block;
+	font-size: 1rem;
+	color: var(--txt);
+}
+
+
+
+/*layer satu*/
+
+.contain-philosophy .box-layer {
+	height: 120vh;
+	
+	width: 100%;
+	color: var(--txt);
+	padding: 3rem 0;
+	position: sticky;
+	
+	
+}
+
+.contain-philosophy .box-layer.satu {
+	margin-top: 5.1rem;
+	padding: 2.5rem 0;
+}
+
+.contain-philosophy .box-layer .tombol {
+	width: 60px;
+	height: 100%;
+	position: absolute;
+	
+	z-index: 10;
+	
+}
+
+.contain-philosophy .box-layer .tombol.right {
+	right: 0;
+	top: 0;
+	
+}
+
+.contain-philosophy .box-layer .tombol.left {
+	left: 0;
+	top: 0
+	
+}
+
+
+.contain-philosophy .box-layer .nama {
+	font-family: 'Lora', serif ;
+	letter-spacing: 2px;
+	font-size: 1.7rem;
+	font-weight: 200;
+	position: absolute;
+	top: 7%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.contain-philosophy .box-layer .wadah {
+	opacity: 0%;
+	transition: .7s;
+	position: absolute;
+	width: 100%;
+}
+
+.contain-philosophy .box-layer .wadah.active {
+	opacity: 100%;
+	
+	
+}
+
+
+.contain-philosophy .box-layer .wadah .box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 2rem;
+	
+	
+}
+
+.contain-philosophy .box-layer .wadah .box .bingkai-img {
+	width: 394px;
+	height: 520px;
+}
+
+.contain-philosophy .box-layer .wadah .box .bingkai-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.contain-philosophy .box-layer .wadah .box .box-txt {
+	width: 25rem;;
+}
+
+.contain-philosophy .box-layer .wadah .box .box-txt h2 {
+	letter-spacing: 2px;
+	font-size: 1rem;
+	font-weight: 200;
+	font-family: 'Lora', serif ;
+	margin-bottom: 1.4rem;
+	
+}
+
+.contain-philosophy .box-layer .wadah .box .box-txt p {
+	line-height: 1.5rem;
+}
+
+
+
+
+.contain-philosophy .box-layer .btnSlide {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+.contain-philosophy .box-layer .btnSlide span {
+	margin-left: .8rem;
+	display: inline-block;
+	width: .6rem;
+	height: .6rem;
+	border-radius: 50%;
+	background-color: #4a4a4a;
+}
+
+.contain-philosophy .box-layer .btnSlide span.active	{
+	background-color: #fff; 
+}
+
+
+
+
+
+/*akhit layer satu*/
+
+/*start layer dua*/
+
+.contain-philosophy .box-layer.dua{
+	margin-top: 8rem;
+	
+} 
+
+.contain-philosophy .box-layer.dua .wadah .box {
+	flex-direction: row-reverse;
+}
+
+.contain-philosophy .box-layer.dua  {
+	background-image: url(../../asset/img/bg-philosophy1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*akhir layer dua*/
+
+
+/*LAYER TIGA*/
+
+.contain-philosophy .box-layer.tiga{
+	margin-top: 8rem;
+	
+} 
+
+
+/*akhir layer tiga*/
+
+
+/*footer bg*/
+
+.footer-bg {
+	width: 100%;
+	height: 60vh;
+	background-image: url(../../asset/img/gallery-bg.jpg);
+	background-size: cover;
+}
+
+
+
+
+
+

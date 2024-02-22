@@ -1,0 +1,116 @@
+@media (max-width: 1023px) {
+	.page-intro {
+		height: 70vh;
+	}
+
+	.full-bg {
+		height: 70vh;
+	}
+
+	.contain-philosophy .box-layer {
+		height: 90vh;
+	}
+
+	.contain-philosophy .box-layer .tombol {
+		width: 40px;
+		height: 100%;
+	
+	}
+
+	.contain-philosophy .box-layer .wadah .box .bingkai-img {
+		height: 436px;
+		width: 336px;
+	}
+
+	.contain-philosophy .box-layer .wadah .box {
+		padding: 0 4%;
+	}
+
+	.contain-philosophy .box-layer .wadah .box .box-txt {
+		padding-left: 1rem;
+	}
+
+	.contain-philosophy .box-layer .nama {
+		top: 5%;
+	}
+
+	.contain-philosophy .box-layer .btnSlide {
+		bottom: 0;
+	}
+} 
+
+
+@media (max-width: 756px) {
+	.contain-philosophy .box-layer.satu {
+		height: 70vh;
+	}
+
+	.contain-philosophy .box-layer.satu .wadah {
+		height: 80%;
+	}
+
+
+	.contain-philosophy .box-layer.satu .wadah .box {
+		height: 100%;
+		position: relative;
+	}
+
+	.contain-philosophy .box-layer.satu .wadah .box .bingkai-img {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+	}
+
+	/*layer dua*/
+
+	.contain-philosophy .box-layer.dua {
+		height: 100vh;
+	}
+
+	.contain-philosophy .box-layer.dua .wadah {
+		height: 80%;
+	}
+
+
+	.contain-philosophy .box-layer.dua .wadah .box {
+		height: 100%;
+		position: relative;
+	}
+
+	.contain-philosophy .box-layer.dua .wadah .box .bingkai-img {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+	}
+
+
+	/*layer tiga*/
+
+	.contain-philosophy .box-layer.tiga {
+		height: 70vh;
+	}
+
+	.contain-philosophy .box-layer.tiga .wadah {
+		height: 80%;
+	}
+
+
+	.contain-philosophy .box-layer.tiga .wadah .box {
+		height: 100%;
+		position: relative;
+	}
+
+	.contain-philosophy .box-layer.tiga .wadah .box .bingkai-img {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+	}
+
+
+	.contain-philosophy .footer-bg {
+		height: 40vh;
+	}
+}

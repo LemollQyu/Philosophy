@@ -1,0 +1,301 @@
+ 
+
+
+@media (max-width: 1200px) {
+
+
+	/*layer satu*/
+
+	#contain .layer-satu .satu {
+		width: 23rem;
+	} 
+
+	#contain .layer-satu .satu {
+		margin-left: 1.4rem;
+	}
+
+
+	/*layer dua*/
+
+	#contain .layer-dua .satu {
+		margin-left: 1.4rem;
+	}
+
+	#contain .layer-dua .dua .bingkai {
+		width: 400px;
+		height: 299px;
+	}
+
+	/* layer tiga */
+
+	#contain .layer-tiga .satu {
+		margin-right: 1.4rem;
+	}
+
+	#contain .layer-tiga .dua .bingkai {
+		width: 400px;
+		height: 100%;
+	}
+
+}
+
+
+
+/*tablet*/
+
+@media (max-width: 1018px) {
+
+	html {
+		margin: 0;
+		padding: 0;
+		font-size: 87.5%;
+	}
+
+	/*navigasi*/
+
+	.nav {
+		height: 70px;
+	}
+
+	.nav .nama-web {
+		letter-spacing: .2rem;
+	}
+
+	#humberger-menu {
+		width: 60px;
+		height: 50px;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.nav #head .main-nav {
+		display: none;
+	}
+
+	.url {
+		margin-bottom: 6rem;
+	}
+
+	#panel .slides {
+		height: 70vh;
+	}
+
+	#panel .slides .pesan {
+		bottom: 70px;
+		left: 0;
+	}
+
+	/*layer satu*/
+
+	#contain {
+		margin-top: -9rem;
+	}
+
+	#contain .layer-satu .satu {
+		width: 20rem;
+	}
+
+
+
+
+	#contain .layer-dua .satu .card p {
+		text-align: justify;
+	}
+
+
+	/*layer dua*/
+
+	#contain .layer-dua .dua .bingkai {
+		width: 24rem;
+	}
+
+	/* layer tiga */
+
+	#contain .layer-tiga .satu {
+		margin-left: 1.4rem;
+	}
+
+
+	#contain .layer-tiga .dua .bingkai {
+		width: 24rem;
+	}
+
+
+	/* gallery */
+
+	
+
+
+}
+
+
+/*antara hp dan tablet*/
+
+@media (max-width: 828px){
+	html {
+		margin: 0;
+		padding: 0;
+		font-size: 75.5%;
+	}
+
+
+	
+	.box-menu {
+		width: 40rem;
+	}
+
+	/*layer satu*/
+
+	#contain .layer-satu {
+		flex-direction: row-reverse;
+
+	}
+
+	/*layer dua*/
+
+	#contain .layer-dua .satu {
+		width: 20rem;
+	}
+
+	#contain .layer-dua .dua .bingkai {
+		width: 24rem;
+		height: 209px;;
+	}
+
+	/* layer tiga */
+
+	#contain .layer-tiga {
+		flex-direction: row-reverse;
+
+	}
+
+	#contain .layer-tiga .satu {
+		width: 20rem;
+		
+	}
+
+	#contain .layer-tiga .dua .bingkai {
+		width: 24rem;
+		height: 37rem;
+	}
+
+
+	/* gallerry */
+
+	#furniture {
+		height: 100vh;
+	}
+
+	#furniture .gallery-furniture .box-img {
+		height: 289px;
+	}
+
+		/* footer */
+
+	.footer {
+			flex-direction: column;
+
+			padding: 1.4rem 0;
+			height: 100px;
+	}
+
+	.footer a {
+		display: inline-block;
+		margin-top: 1.4rem;
+		font-size: 1rem;
+	}
+
+
+
+}
+
+
+
+/*handphone*/
+
+@media (max-width: 576px) {
+	html {
+		font-size: 65.5%;
+	}
+	#humberger-menu {
+		width: 40px;
+		height: 30px;
+	}
+
+	/*layer satu*/
+
+	#contain {
+		margin-top: -12rem;
+	}
+
+	#contain .layer-satu {
+		flex-direction: column-reverse;
+	}
+
+	#contain .layer-satu .satu {
+		width: 100%;
+	}
+
+	#contain .layer-satu .dua {
+		margin-bottom: 2rem;
+	}
+
+	#contain .layer-satu .dua .bingkai {
+		width: 100%;
+		height: 100%;
+
+	}
+
+
+	/*layer dua*/
+
+	#contain .layer-dua {
+		flex-direction: column-reverse;
+	}
+
+	#contain .layer-dua .satu {
+		width: 100%;
+	}
+
+	#contain .layer-dua .dua {
+		margin-bottom: 2rem;
+		
+	}
+
+	#contain .layer-dua .dua .bingkai {
+		width: 100%;
+		height: 311px;
+
+	}
+
+	/* layer tiga */
+
+	#contain .layer-tiga {
+		flex-direction: column-reverse;
+	}
+
+	#contain .layer-tiga .satu {
+		width: 100%;
+	}
+
+	#contain .layer-tiga .dua {
+		margin-bottom: 2rem;
+		
+	}
+
+	#contain .layer-tiga .dua .bingkai {
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+
+
+	
+
+}
+
+

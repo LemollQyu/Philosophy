@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border-style: none;
+	list-style: none;
+}
+
+:root {
+	--menu-bg: #897A73;
+	--menu-txt: #ECE8DD;
+	--txt: #FFFFFF;
+	--txt-nama: #6F8555;
+}
+
+body {
+	font-family: 'Domine', serif;
+	background-color: #eee;
+	overflow-x: hidden;
+
+
+}
+
+/*navigasi*/
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 999;
+	
+
+	height: 80px;
+	width: 100%;
+	padding: 0 1.2rem;
+
+	/*font-weight*/
+	font-weight: 600;
+	
+}
+
+/*2 style navigasi*/
+
+.light {
+	background: rgba(238, 238, 238, .7);
+	color: #000;
+
+}
+
+.light rect {
+	stroke: #000;
+}
+
+.dark {
+	background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.742734593837535) 6%, rgba(0,0,0,0) 100%);
+	color: var(--txt);
+
+}
+
+.dark rect {
+	stroke: #fff;
+}
+
+.nav .nama-web {
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	color: inherit;
+
+}
+
+.nav #head .main-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 1.4rem;
+
+}
+
+
+.nav #head .main-nav li a {
+	font-size: 1rem;
+	display: inline-block;
+	margin: 0 2.5rem;
+	letter-spacing: .1rem;
+	color: inherit;
+}
+
+#head {
+	display: flex;
+	align-items: center;
+}
+
+
+#humberger-menu {
+	width:50px; 
+	height:40px;
+}
+
+
+/*box-menu*/
+
+.box-menu {
+	width: 32rem;
+	background-color: var(--menu-bg);
+	color: var(--menu-txt);
+	font-family: 'Roboto Slab', serif;
+	height: 100vh;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	right: -200%;
+	transition: .3s;
+	overflow-y: auto;
+}
+
+.box-menu.active {
+	right: 0;
+}
+
+.box-menu .icon-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	height: 100px;
+}
+
+.box-menu .icon-menu form input {
+	padding: 1.4rem 1.5rem;
+	background-color: var(--menu-bg);
+	height: 1.4rem;
+	border-bottom: 1px solid var(--menu-txt);
+}
+
+/*Akhir*/
+
+/*url*/
+
+.url li a {
+	display: inline-block;
+	margin: 1rem 1.5rem;
+	padding: .4rem 0;
+	color: inherit;
+	letter-spacing: 2px;
+
+}
+
+.itl {
+	font-weight: 400;
+}
+
+/*akhir url*/
+
+/*nb */
+
+.nb {
+	margin-top: 1.4rem; 
+}
+
+.nb li a {
+	display: inline-block;
+	margin: .2rem 1.5rem;
+	padding: .2rem 0;
+	color: inherit;
+	font-size: 1rem;
+	font-weight: 200;
+}
+
+
+
+
+/* BREAKPOINT */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1018px) {
+	html {
+		margin: 0;
+		padding: 0;
+		font-size: 87.5%;
+	}
+
+	/*navigasi*/
+
+	.nav {
+		height: 70px;
+	}
+
+	.nav .nama-web {
+		letter-spacing: .2rem;
+	}
+
+	#humberger-menu {
+		width: 60px;
+		height: 50px;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.nav #head .main-nav {
+		display: none;
+	}
+	/*akhir nav*/
+
+	.url {
+		margin-bottom: 6rem;
+	}
+
+}
+
+@media (max-width: 828px) {
+	html {
+		margin: 0;
+		padding: 0;
+		font-size: 75.5%;
+	}
+
+	.box-menu {
+		width: 40rem;
+	}
+}
+
+@media (max-width: 576px) {
+	html {
+		font-size: 65.5%;
+	}
+	#humberger-menu {
+		width: 40px;
+		height: 30px;
+	}
+}
